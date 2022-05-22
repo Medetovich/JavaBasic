@@ -9,6 +9,7 @@ public class Test {
         System.out.println(Arrays.toString(thirdValue(b)));
     }
 
+
     public static int[] thirdValue(int[] a) {
 
         for (int i = 0; i < a.length; i++) {
