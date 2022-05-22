@@ -8,11 +8,12 @@ public class HW11 {
         int[] test1 = {12, 54, 11};
         int[] test2 = {2, 5, 19};
         int[] test3 = {16, 32, -5};
-        System.out.println(quantityOfNegNumber(test)); // первое задание
-        System.out.println(Arrays.toString(getMax(test1, test2, test3)));// второе задание
-        selectionSort(test1);
-        selectionSort(test3);
-        System.out.println(Arrays.toString(test3));
+        //System.out.println(quantityOfNegNumber(test)); // первое задание
+       // System.out.println(Arrays.toString(getMax(test1, test2, test3)));// второе задание
+      //  selectionSort(test1);
+      //  selectionSort(test3);
+      //  System.out.println(Arrays.toString(test3));
+        System.out.println(factSum(4));
 
     }
 
@@ -63,6 +64,13 @@ public class HW11 {
             a[temp] = a[i];
             a[i] = min;
         }
+    }
+    public static long factSum(int a){
+        if (a == 0) {
+            return 1;
+        }
+        return a*factSum(a - 1);
+
     }
 
 }
