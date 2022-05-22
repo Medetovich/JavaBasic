@@ -12,7 +12,7 @@ public class HW12 {
         int[] li4 = {1, 1, 5, 9, 4, 12};
         System.out.println(thirdBiggestSize(li));
         Test.thirdValue(li);
-        //System.out.println(thirdBiggestSize(li));
+        System.out.println(thirdBiggestSize(li));
         System.out.println(equalsValuesOfTwoElements(li1, li2));
         System.out.println(averageElemOfArrays(li1));
         System.out.println(disOfArrays(li3));
