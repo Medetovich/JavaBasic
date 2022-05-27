@@ -5,30 +5,30 @@ import java.util.ArrayList;
 
 public class HW12 {
     public static void main(String[] args) {
-        int[] li = {12, 5, 6, 6, 6, 4, 6, 1};
-        int[] li1 = {5, 9, 443, 12, 7,};
+        int[] li = {1, 5, 4, 4, 4, 4};
+        int[] li1 = {32, 32, 9, 443, 12, 7,};
         int[] li2 = {21, 443, 12, 4, 9, 65, 32};
-        double[] li3 = {5, 9, 443, 12, 7,};
+        double[] li3 = {1,2,3,4};
         int[] li4 = {1, 1, 5, 9, 4, 12};
-        System.out.println(thirdBiggestSize(li));
         Test.thirdValue(li);
-        System.out.println(thirdBiggestSize(li));
-        System.out.println(equalsValuesOfTwoElements(li1, li2));
-        System.out.println(averageElemOfArrays(li1));
+        //System.out.println(thirdBiggestSize(li));
+        //System.out.println(equalsValuesOfTwoElements(li1, li2));
+        //System.out.println(averageElemOfArrays(li1));
         System.out.println(disOfArrays(li3));
-        System.out.println(isInside(li4, li));
+        //System.out.println(isInside(li, li4));
         System.out.println(rekSumOfArray(li, li.length - 1));
-        System.out.println(nod(35, 18));
+        //System.out.println(nod(35, 18));
     }
 
     public static int thirdBiggestSize(int[] a) {
         int checkValue = 0;
         int d = 0;
-        for (int i = 0; i < a.length - 1; i++) {
-            if (a[i] > a[i + 1]) {
+        int c = a[0];
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] > c  ) {
                 checkValue += 1;
             }
-            if (checkValue == 3) {
+            if (checkValue == 2) {
                 d = a[i];
                 break;
             }
