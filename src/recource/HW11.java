@@ -57,7 +57,7 @@ public class HW11 {
             int temp = i;
             int min = a[i];
             for(int j = i + 1; j < a.length; j++){
-                if (a[j] < a[i]){
+                if (a[j] < min){
                     temp = j;
                     min = a[j];
                 }

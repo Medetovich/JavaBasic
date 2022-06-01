@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class hw13 {
     public static void main(String[] args) {
-        int[] li = {13, 12, 5, 3, 4};
+        int[] li = {13, 12, 5, 3, 4,5,3,21,54,321,32,21};
         System.out.println(Arrays.toString(delete(li, 1)));
         String aa = ")12 + 5) + (22 + 12)";
         System.out.println(scammersTrue(aa));
