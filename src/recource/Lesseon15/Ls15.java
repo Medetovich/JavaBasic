@@ -23,7 +23,7 @@ public class Ls15 {
         advancedIntArray.append(54);
         System.out.println(advancedIntArray.size());
         OfficeEmployee d = new OfficeEmployee("dina", "samsung", 2500, 400, "gennady");
-        Employee s = new Employee("sad", "apple", 5000);
+        /*Employee s = new Employee("sad", "apple", 5000);*/
         System.out.println(d.getName());
         d.introduce();
         advancedIntArray.insert(3, 555 );
@@ -33,7 +33,7 @@ public class Ls15 {
         advancedIntArray.print();
         System.out.println(advancedIntArray.contains(10));
         OfficeEmployee a = new OfficeEmployee("aleks", "nokia", 2100, 100, "artur");
-        System.out.println(s.getId());
+       /* System.out.println(s.getId());*/
         System.out.println(d.getId());
         System.out.println(a.getId());
 

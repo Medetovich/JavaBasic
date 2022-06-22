@@ -1,10 +1,11 @@
 package recource.Lesseon15;
 
-public class Employee {
+abstract public class Employee {
     public static int id;
     String name;
     String company;
     int baseSalary;
+    public abstract boolean realize();
 
 
     public int getSalary(){

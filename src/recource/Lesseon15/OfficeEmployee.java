@@ -2,6 +2,11 @@ package recource.Lesseon15;
 //  Дочерний класс расширяет базовый класс
 //  супер класс - базовый класс
 public class OfficeEmployee extends Employee{
+    @Override
+    public boolean realize() {
+        return false;
+    }
+
     int monthlyBonus;
     String manager;
 
